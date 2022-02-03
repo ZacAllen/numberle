@@ -67,7 +67,7 @@ const Keyboard = (props) => {
     }
 
     const win = () => {
-        console.log("WINNER")
+        // console.log("WINNER")
         Swal.fire({
             customClass: {
                 confirmButton: 'share',
@@ -91,7 +91,7 @@ const Keyboard = (props) => {
     }
 
     const lose = () => {
-        console.log("LOSER")
+        // console.log("LOSER")
         Swal.fire({
             customClass: {
                 confirmButton: 'share',
