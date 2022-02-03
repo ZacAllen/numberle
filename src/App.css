@@ -1,38 +1,121 @@
-.App {
+:root {
+  --mainFont: 'Roboto', sans-serif;
+  --mainGreen: "#6AAA64";
+
+}
+@media screen and (max-width: 300px) {
+  .row>* {
+      padding-right: 1px !important;
+      padding-left: 1px !important;
+  }
+}
+
+.titleContainer {
+  padding-top: 40px
+}
+.title {
+  font-family: var(--mainFont);
+  letter-spacing: .2rem;
+}
+#question {
+  font-family: var(--mainFont);
+  font-size: 120%;
+  color: #787C7E;
+  line-height: 1.5rem;
+}
+#questionOuter {
+  margin-top: 10px;
   text-align: center;
+  float: left;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  border: 2px solid #787C7E
+}
+.modalTitle {
+  font-family: var(--mainFont);
+  font-size: 110%;
+}
+.btn-close.btn-close {
+  position: absolute;
+  right: 1rem;
+}
+.modal-backdrop.modal-backdrop {
+  background-color: white;
+  opacity: 1.0;
+}
+.modal-content.modal-content {
+  border: none;
+}
+#nuberle {
+ 
+}
+.numButton {
+  width: 100%;
+  height: 100%;
+}
+.numRow {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height: 25%
+}
+.numContainer {
+  height: 30vh;
+  width: 90%;
+}
+.btn.btn {
+  background-color: #D3D6DA;
+  color: black;
+  border: none;
+  font-family: var(--mainFont);
+  font-size: 150%;
+}
+.btn.btn:focus {
+  box-shadow: none
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.numInput {
+  border: 2px solid rgb(202, 202, 202);
+  border-radius: 0;
+  height: 55px;
+  margin-left: 2px;
+  margin-right: 2px;
+  font-family: var(--mainFont);
+  font-size: 220%;
+}
+.numInputModal {
+  border: 2px solid rgb(202, 202, 202);
+  border-radius: 0;
+  height: 55px;
+  margin-left: 2px;
+  margin-right: 2px;
+  font-family: var(--mainFont);
+  font-size: 220%;
+}
+.inputContainer {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.inputContainerModal {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.inputCol {
+  padding: 0
+}
+.inputColModal {
+  padding: 0
+}
+.inputSpacer {
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.share {
+  font-family: var(--mainFont);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#footer {
+  padding-top: 20%;
+  font-family: var(--mainFont);
 }
