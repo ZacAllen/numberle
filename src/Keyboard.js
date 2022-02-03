@@ -27,7 +27,7 @@ const Keyboard = (props) => {
     }, [])
 
     useEffect(() => {
-        console.log(data)
+        // console.log(data)
         if (submissionCount.length > 6 && !haveWon) {
             setLose(true)
             lose();
