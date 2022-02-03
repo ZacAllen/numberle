@@ -27,7 +27,7 @@ const Input = (props) => {
         setEnterPressed(props.enterPressed)
         setCorrect(props.correctNumber)
         setSubmissionCount(props.submissionCount)
-        console.log("Correct: " + correctNumber)
+        // console.log("Correct: " + correctNumber)
 
         if(enterPressed) {
             // console.log("ENTER HAS BEEN PRESSED")
