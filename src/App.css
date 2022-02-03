@@ -24,6 +24,7 @@
   line-height: 1.5rem;
 }
 #questionOuter {
+  cursor: pointer;
   margin-top: 10px;
   text-align: center;
   float: left;
