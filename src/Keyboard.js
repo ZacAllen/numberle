@@ -83,7 +83,7 @@ const Keyboard = (props) => {
                 var guessCount =  emojis.split(/\r\n|\r|\n/).length - 1
                 //copy emojis state to clipboard
                 navigator.clipboard.writeText(
-                    "Numberle " + guessCount  + "/6 " + "\n\n" + emojis
+                    "Numberle " + guessCount  + "/6 " + "\n\n" + emojis + "\n\nhttps://numberle.netlify.app/" 
                 )
                 alert.show("Copied result to clipboard!")
             }
@@ -107,7 +107,7 @@ const Keyboard = (props) => {
                 var guessCount =  emojis.split(/\r\n|\r|\n/).length - 1
                 //copy emojis state to clipboard
                 navigator.clipboard.writeText(
-                    "Numberle " + guessCount  + "/6 " + "\n\n" + emojis
+                    "Numberle " + guessCount  + "/6 " + "\n\n" + emojis + "\n\nhttps://numberle.netlify.app/"
                 )
                 alert.show("Copied result to clipboard!")
             }
